@@ -1,0 +1,237 @@
+/* BODY SECTION */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.body{
+    color: #fff;
+    background-color: #000;
+}
+
+.header{
+    height: 115vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0)),linear-gradient(to top,rgba(0,0,0,1),rgba(255,255,255,0)),url(images/header-image.png);
+}
+
+/* NAVIGATION BAR SECTION */
+
+#btn-primary,#btn-outline-primary{
+    color: #fff;
+    height: 2.2rem;
+    border-width: 2px;
+    padding-top: 4px;
+    justify-content: center;
+    border-color: #960707;
+    border-bottom-width: 3px;
+}
+
+#btn-primary,#btn-outline-primary:hover{
+    transition: .6s ease;
+    border-color: #960707;
+}
+
+#btn-primary{
+    background-color: #960707;
+}
+
+#btn-primary:hover{
+    background-color:transparent;
+}
+
+#btn-outline-primary:hover{
+    background-color: #960707;
+}
+
+/* CONTENT SECTION */
+
+#content h1{
+    font-weight: 900;
+}
+
+#content h2{
+    font-weight: 600;
+}
+
+#content h3{
+    font-size: 21px;
+}
+
+.form-floating input{
+    /*display: inline;*/
+    background: transparent;
+}
+
+.form-floating input[type=email]{
+    color:#fff;
+}
+
+.form-floating input:hover{
+    background: transparent;
+}
+
+.form-control:focus~#label::after{
+    background:transparent;
+}
+
+#label{
+    color: rgb(194, 194, 194);
+}
+
+#form-btn{
+    border-color: #960707;
+    border-bottom-width: 3px;
+    border-width: 2px;
+    background-color: #960707;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+#form-btn:hover{
+    transition: .6s ease;
+    border-color: #960707;
+    background-color: transparent;
+}
+
+/* SERVICE SECTION */
+
+#service-fluid{
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#card{
+    min-height: 425px;
+    border-style: none;
+    background: linear-gradient(to bottom right,rgba(74, 0, 42, 1),rgba(8, 0, 76, 1));
+}
+#card-col{
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+#card-body{
+    color: #fff;
+}
+
+.card-body img{
+    margin-top: 40px;
+    width: min-content;
+}
+
+#card:hover{
+    cursor: pointer;
+    background: none;
+    transition: 0.7s ease ;
+    box-shadow:0px 10px 30px #960707;
+}
+
+#card-body:hover{
+    transition: 0.7s ease;
+    transform: scale(1.05);
+}
+
+/*FAQ SECTION */
+
+#faqq{
+    padding-left: 85px;
+    padding-top: 80px;
+}
+
+#faqq h2{
+    font-weight: 900;
+}
+
+/* ACCORDIAN SECTION */
+
+#accordionExample{
+    --bs-accordion-border-color: #000;
+}
+
+#accordion-item{
+    margin-top: 7px;
+    border-style: none;
+}
+
+#accordion-button{
+    color:#fff;
+    font-weight: 500;
+    background-color: #080050;
+    
+}
+
+#accordion-button::after{
+    background-image: url(images/download.png);
+}
+
+#accordion-button:focus{
+    box-shadow: none;
+}
+
+#accordion-button:hover{
+    filter: brightness(1.3);
+    transition: 0.3s;
+}
+
+.accordion-body{
+    color: #fff;
+    font-weight: 300;
+    background-color: #080050;
+}
+
+#h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    padding-top: 130px;
+    padding-left: 85px;
+    padding-bottom: 60px;
+}
+
+.footer p{
+    color: rgb(194, 194, 194);
+}
+
+table{
+    margin-top: 50px;
+}
+
+tbody{
+    color: #fff;
+}
+
+td a{
+    max-width: 1px;
+    color: rgb(194, 194, 194);
+    padding-left: 0;
+}
+
+.querydel{
+    display: none;
+}
+
+.dropdown{
+    margin-top: 45px;
+}
+
+.end{
+    margin-top: 40px;
+}
