@@ -210,16 +210,6 @@
     color: rgb(194, 194, 194);
 }
 
-tbody{
-    color: #fff;
-}
-
-td a{
-    max-width: 1px;
-    color: rgb(194, 194, 194);
-    padding-left: 0;
-}
-
 .querydel{
     display: none;
 }
